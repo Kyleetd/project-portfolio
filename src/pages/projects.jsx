@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 
 import NavBar from "../components/common/navBar";
-import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import AllProjects from "../components/projects/allProjects";
 
@@ -59,9 +58,6 @@ const Projects = () => {
 						<div className="projects-list">
 							<AllProjects />
 						</div>
-					</div>
-					<div className="page-footer">
-						<Footer />
 					</div>
 				</div>
 			</div>

@@ -9,18 +9,21 @@
 
 .homepage-container {
 	padding-top: 25px;
+	height: 100%;
 }
 
 .homepage-first-area {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	height: 100%;
 }
 
 .homepage-first-area-left-side {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+	height: 100%;
 }
 
 .homepage-title {
@@ -34,6 +37,7 @@
 .homepage-first-area-right-side {
 	display: flex;
 	align-items: center;
+	height: 100%;
 }
 
 .homepage-image-container {
@@ -71,16 +75,6 @@
 
 .homepage-after-title {
 	display: flex;
-}
-
-.homepage-projects {
-	flex-basis: 300px;
-	padding-top: 40px;
-}
-
-.homepage-works {
-	flex-basis: 600px;
-	padding-top: 30px;
 }
 
 @media (max-width: 1024px) {
@@ -122,15 +116,5 @@
 
 	.homepage-after-title {
 		flex-direction: column;
-	}
-
-	.homepage-projects {
-		flex-basis: auto;
-	}
-
-	.homepage-works {
-		flex-basis: auto;
-		margin-left: -25px;
-		margin-right: -25px;
 	}
 }

@@ -3,7 +3,7 @@ const INFO = {
 		title: "Reactfolio by Kylee",
 		name: "Kylee Dyck",
 		email: "kyleetd@gmail.com",
-		logo: "../logo.png",
+		logo: "../caty.png",
 	},
 
 	socials: {

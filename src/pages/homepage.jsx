@@ -6,9 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
-import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
-import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -136,14 +134,6 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
-						</div>
-
-						<div className="homepage-projects">
-							<AllProjects />
-						</div>
-
-						<div className="page-footer">
-							<Footer />
 						</div>
 					</div>
 				</div>
