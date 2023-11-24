@@ -3,12 +3,12 @@ import { Helmet } from "react-helmet";
 
 import NavBar from "../components/common/navBar";
 import Logo from "../components/common/logo";
-import Socials from "../components/about/socials";
+import Socials from "../components/work-experience/socials";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
 
-import "./styles/about.css";
+import "./styles/work-experience.css";
 
 const About = () => {
 	useEffect(() => {
@@ -29,7 +29,7 @@ const About = () => {
 			</Helmet>
 
 			<div className="page-content">
-				<NavBar active="about" />
+				<NavBar active="work-experience" />
 				<div className="content-wrapper">
 					<div className="about-logo-container">
 						<div className="about-logo">

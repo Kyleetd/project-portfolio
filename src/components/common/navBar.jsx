@@ -5,6 +5,7 @@ import "./styles/navBar.css";
 
 const NavBar = (props) => {
 	const { active } = props;
+	console.log(active);
 
 	return (
 		<React.Fragment>
@@ -33,12 +34,14 @@ const NavBar = (props) => {
 							</li>
 							<li
 								className={
-									active === "about"
+									active === "work-experience"
 										? "nav-item active"
 										: "nav-item"
 								}
 							>
-								<Link to="/about">Work Experience</Link>
+								<Link to="/work-experience">
+									Work Experience
+								</Link>
 							</li>
 						</ul>
 					</div>
