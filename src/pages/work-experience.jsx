@@ -4,9 +4,10 @@ import { Helmet } from "react-helmet";
 import NavBar from "../components/common/navBar";
 import Logo from "../components/common/logo";
 import Socials from "../components/work-experience/socials";
+import CustomizedTimeline from "../components/work-experience/mui-timeline";
 
 import INFO from "../data/user";
-import SEO from "../data/seo";
+import WORK from "../data/work";
 
 import "./styles/work-experience.css";
 
@@ -15,58 +16,33 @@ const About = () => {
 		window.scrollTo(0, 0);
 	}, []);
 
-	const currentSEO = SEO.find((item) => item.page === "about");
-
 	return (
 		<React.Fragment>
 			<Helmet>
 				<title>{`About | ${INFO.main.title}`}</title>
-				<meta name="description" content={currentSEO.description} />
-				<meta
-					name="keywords"
-					content={currentSEO.keywords.join(", ")}
-				/>
+				<meta name="keywords" />
 			</Helmet>
 
 			<div className="page-content">
 				<NavBar active="work-experience" />
 				<div className="content-wrapper">
-					<div className="about-logo-container">
-						<div className="about-logo">
+					<div className="work-logo-container">
+						<div className="work-logo">
 							<Logo width={46} />
 						</div>
 					</div>
 
-					<div className="about-container">
-						<div className="about-main">
-							<div className="about-right-side">
-								<div className="title about-title">
-									{INFO.about.title}
-								</div>
-
-								<div className="subtitle about-subtitle">
-									{INFO.about.description}
-								</div>
+					<div className="work-container">
+						<div className="work-main">
+							<div className="work-right-side">
+								<CustomizedTimeline timeLineData={WORK} />
 							</div>
 
-							<div className="about-left-side">
-								<div className="about-image-container">
-									<div className="about-image-wrapper">
-										<img
-											src="about.jpg"
-											alt="about"
-											className="about-image"
-										/>
-									</div>
-								</div>
-
-								<div className="about-socials">
+							{/* <div className="work-left-side">
+								<div className="work-socials">
 									<Socials />
 								</div>
-							</div>
-						</div>
-						<div className="about-socials-mobile">
-							<Socials />
+							</div> */}
 						</div>
 					</div>
 				</div>

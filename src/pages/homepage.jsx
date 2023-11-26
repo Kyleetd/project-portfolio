@@ -9,7 +9,6 @@ import Logo from "../components/common/logo";
 import NavBar from "../components/common/navBar";
 
 import INFO from "../data/user";
-import SEO from "../data/seo";
 
 import "./styles/homepage.css";
 
@@ -46,8 +45,6 @@ const Homepage = () => {
 		return () => window.removeEventListener("scroll", handleScroll);
 	}, [logoSize, oldLogoSize]);
 
-	const currentSEO = SEO.find((item) => item.page === "home");
-
 	const logoStyle = {
 		display: "flex",
 		position: stayLogo ? "fixed" : "relative",
@@ -62,10 +59,8 @@ const Homepage = () => {
 		<React.Fragment>
 			<Helmet>
 				<title>{INFO.main.title}</title>
-				<meta name="description" content={currentSEO.description} />
 				<meta
 					name="keywords"
-					content={currentSEO.keywords.join(", ")}
 				/>
 			</Helmet>
 
