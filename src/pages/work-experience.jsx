@@ -2,12 +2,10 @@ import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 
 import NavBar from "../components/common/navBar";
-import Logo from "../components/common/logo";
-import Socials from "../components/work-experience/socials";
 import CustomizedTimeline from "../components/work-experience/mui-timeline";
 
 import INFO from "../data/user";
-import WORK from "../data/work";
+import { WORK } from "../data/work";
 
 import "./styles/work-experience.css";
 
@@ -26,23 +24,11 @@ const About = () => {
 			<div className="page-content">
 				<NavBar active="work-experience" />
 				<div className="content-wrapper">
-					<div className="work-logo-container">
-						<div className="work-logo">
-							<Logo width={46} />
-						</div>
-					</div>
-
 					<div className="work-container">
 						<div className="work-main">
 							<div className="work-right-side">
 								<CustomizedTimeline timeLineData={WORK} />
 							</div>
-
-							{/* <div className="work-left-side">
-								<div className="work-socials">
-									<Socials />
-								</div>
-							</div> */}
 						</div>
 					</div>
 				</div>

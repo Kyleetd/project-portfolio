@@ -1,31 +1,25 @@
-const WORK = [
+export const WORK = [
 	{
-		page: "home",
-		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+		Company: "Forsite Consultants",
+		Logo: "Forsite.jpg",
+		Description:
+			"Created spatial data inputs as training data for machine learning algorithms and automated workflows using a collection of geospatial Python libraries",
+		Date: "May 2022-December 2023",
 	},
 
 	{
-		page: "about",
-		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+		Company: "Transport Canada",
+		Logo: "TC.jpg",
+		Description:
+			"Supported in the review of proposed development projects under the Canadian Environmental Impact Assessment Act. Managed budget sheets to aid in the organization of FCSAP projects.",
+		Date: "January 2021-August 2021",
 	},
 
 	{
-		page: "projects",
-		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
-	},
-
-	{
-		page: "contact",
-		description:
-			"If you're interested in collaborating on a project, feel free to reach out to me. I'm always open to new ideas and opportunities.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+		Company: "HydroGeoscience for Watershed Management Research Lab",
+		Logo: "HGSWM.jpg",
+		Description:
+			"Used Python to delineate watersheds and process spatial data to inform land management in watersheds.",
+		Date: "September 2020 - January 2022",
 	},
 ];
-
-export default WORK;
