@@ -11,7 +11,7 @@ export const WORK = [
 		Company: "Transport Canada",
 		Logo: "TC.jpg",
 		Description:
-			"Supported in the review of proposed development projects under the Canadian Environmental Impact Assessment Act. Managed budget sheets to aid in the organization of FCSAP projects.",
+			"Supported in the review of proposed development projects under the Canadian Environmental Impact Assessment Act. Managed budget sheets to aid in the organization of FCAP projects.",
 		Date: "January 2021-August 2021",
 	},
 

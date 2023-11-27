@@ -7,6 +7,7 @@ import Projects from "./pages/projects";
 import WorkExperience from "./pages/work-experience";
 import Notfound from "./pages/404";
 
+import { ParticlesBackground } from "./components/common/particles/particles-background";
 import { TRACKING_ID } from "./data/tracking";
 import "./app.css";
 
@@ -18,14 +19,22 @@ function App() {
 	}, []);
 
 	return (
-		<div className="App">
-			<Routes>
-				<Route path="/" element={<Homepage />} />
-				<Route path="/projects" element={<Projects />} />
-				<Route path="/work-experience" element={<WorkExperience />} />
-				<Route path="*" element={<Notfound />} />
-			</Routes>
-		</div>
+		<>
+			<div style={{ position: "absolute", zIndex: -1 }}>
+				<ParticlesBackground />
+			</div>
+			<div className="App" style={{ zIndex: 1000 }}>
+				<Routes>
+					<Route path="/" element={<Homepage />} />
+					<Route path="/projects" element={<Projects />} />
+					<Route
+						path="/work-experience"
+						element={<WorkExperience />}
+					/>
+					<Route path="*" element={<Notfound />} />
+				</Routes>
+			</div>
+		</>
 	);
 }
 
