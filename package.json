@@ -4,6 +4,7 @@
 	"description": "Personal portfolio template built using Reactjs",
 	"license": "MIT",
 	"private": true,
+	"homepage": "https://github.com/Kyleetd/project-portfolio",
 	"dependencies": {
 		"@emotion/react": "^11.11.1",
 		"@emotion/styled": "^11.11.0",
