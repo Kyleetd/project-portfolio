@@ -9,6 +9,8 @@ import TimelineDot from "@mui/lab/TimelineDot";
 import Typography from "@mui/material/Typography";
 import Card from "@mui/material/Card";
 
+import "./styles/mui-timeline.css";
+
 export default function CustomizedTimeline({ timeLineData }) {
 	return (
 		<Timeline position="alternate">
@@ -17,12 +19,12 @@ export default function CustomizedTimeline({ timeLineData }) {
 					<TimelineOppositeContent
 						variant="body2"
 						color="text.secondary"
-						sx={{ paddingTop: "41px" }}
+						sx={{ paddingTop: "41px", color: "#f6f1d5" }}
 					>
 						{item.Date}
 					</TimelineOppositeContent>
 					<TimelineSeparator>
-						<TimelineDot>
+						<TimelineDot sx={{ backgroundColor: "#876bf8" }}>
 							<img
 								src={item.Logo}
 								alt="Custom Icon"
@@ -41,21 +43,30 @@ export default function CustomizedTimeline({ timeLineData }) {
 					<TimelineContent sx={{ py: "12px", px: 2 }}>
 						<Card
 							variant="outlined"
-							sx={{ border: "2px solid #dcb0ff", padding: 1 }}
+							sx={{
+								border: "2px solid #876bf8",
+								padding: 1,
+								backgroundColor: "rgba(131, 107, 248, 0.5)",
+							}}
 						>
 							<Typography
-								sx={{ fontSize: "14px", textAlign: "left" }}
+								sx={{
+									fontSize: "14px",
+									textAlign: "left",
+									color: "#f6f1d5",
+								}}
 							>
 								{item.Company}
 							</Typography>
 							<Typography
-								sx={{ fontSize: "12px", textAlign: "left" }}
+								sx={{
+									fontSize: "12px",
+									textAlign: "left",
+									color: "#f6f1d5",
+								}}
 							>
 								{item.Description}
 							</Typography>
-							<Typography
-								sx={{ fontSize: "12px", textAlign: "left" }}
-							></Typography>
 						</Card>
 					</TimelineContent>
 				</TimelineItem>

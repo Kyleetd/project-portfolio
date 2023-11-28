@@ -62,12 +62,11 @@ const INFO = {
 		},
 
 		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+			title: "Human Migration Visualization",
+			description: "In progress. Will visualize migration patterns.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/Kyleetd/human-migration-data-visualization",
 		},
 	],
 };

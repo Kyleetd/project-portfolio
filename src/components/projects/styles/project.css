@@ -12,13 +12,14 @@
 }
 
 .project:hover {
-	background: #fafafa;
+	background: #876bf8;
 	opacity: 1;
 	transition: background-color 0.3s ease-in-out;
 }
 
 .project:hover .project-link {
-	color: var(--link-color);
+	/* color: var(--link-color); */
+	color: #f6f1d5;
 	transition: color 0.3s ease-in-out;
 }
 
@@ -50,9 +51,10 @@
 .project-link {
 	display: flex;
 	align-items: center;
-	color: var(--secondary-color);
+	/* color: var(--secondary-color); */
 	font-size: 12px;
 	padding-top: 20px;
+	color: #f6f1d5;
 }
 
 .project-link-icon {
