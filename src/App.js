@@ -25,12 +25,14 @@ function App() {
 			</div>
 			<div className="App" style={{ zIndex: 1000 }}>
 				<Routes>
-					<Route path="/" element={<Homepage />} />
-					<Route path="/projects" element={<Projects />} />
-					<Route
-						path="/work-experience"
-						element={<WorkExperience />}
-					/>
+					<Route path="/project-portfolio">
+						<Route path="home" element={<Homepage />} />
+						<Route path="projects" element={<Projects />} />
+						<Route
+							path="work-experience"
+							element={<WorkExperience />}
+						/>
+					</Route>
 					<Route path="*" element={<Notfound />} />
 				</Routes>
 			</div>
