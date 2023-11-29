@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import ReactGA from "react-ga4";
 
 import Homepage from "./pages/homepage";
@@ -23,9 +23,13 @@ function App() {
 			<div style={{ position: "absolute", zIndex: -1 }}>
 				<ParticlesBackground />
 			</div>
-			<div className="App" style={{ zIndex: 1000 }}>
+			<div className="App" style={{ zIndex: 10000 }}>
 				<Routes>
 					<Route path="/project-portfolio">
+						<Route
+							path=""
+							element={<Navigate to="home" replace />}
+						/>
 						<Route path="home" element={<Homepage />} />
 						<Route path="projects" element={<Projects />} />
 						<Route

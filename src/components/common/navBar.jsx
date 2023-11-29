@@ -20,7 +20,7 @@ const NavBar = (props) => {
 										: "nav-item"
 								}
 							>
-								<Link to="/">Home</Link>
+								<Link to="/project-portfolio/home">Home</Link>
 							</li>
 
 							<li
@@ -30,7 +30,9 @@ const NavBar = (props) => {
 										: "nav-item"
 								}
 							>
-								<Link to="/projects">Projects</Link>
+								<Link to="/project-portfolio/projects">
+									Projects
+								</Link>
 							</li>
 							<li
 								className={
@@ -39,7 +41,7 @@ const NavBar = (props) => {
 										: "nav-item"
 								}
 							>
-								<Link to="/work-experience">
+								<Link to="/project-portfolio/work-experience">
 									Work Experience
 								</Link>
 							</li>
