@@ -12,3 +12,5 @@ Forked from this repository: <a href="https://github.com/truethari/reactfolio/tr
     -   Home
     -   Projects
     -   Work Experience
+
+## What I Learned
