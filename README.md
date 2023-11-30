@@ -1,4 +1,4 @@
-# Persoanl Project Portfolio 👾
+# Personal Project Portfolio 👾
 
 Here is a compilation of a few programming projects I have endeavored. 
 
