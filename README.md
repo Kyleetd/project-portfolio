@@ -6,11 +6,9 @@ Forked from this repository: <a href="[https://reactfolio.tharindu.dev/](https:/
 <br/>
 
 
-## 📙 Features
+## Features
 
 -   📖 Multi-Page Layout
     -   Home
     -   Projects
     -   Work Experience
-
-t
