@@ -6,8 +6,10 @@ const ParticleOptions = () => {
 	const options = {
 		background: {
 			color: {
-				value: theme.palette.background.default,
+				// value: theme.palette.background.default,
+				value: "rgba(82, 0, 175)",
 			},
+			opacity: 0.5,
 		},
 		fpsLimit: 120,
 		interactivity: {

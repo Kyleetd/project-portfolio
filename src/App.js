@@ -1,6 +1,4 @@
-import { useEffect } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
-import ReactGA from "react-ga4";
 
 import Homepage from "./pages/homepage";
 import Projects from "./pages/projects";
@@ -8,16 +6,9 @@ import WorkExperience from "./pages/work-experience";
 import Notfound from "./pages/404";
 
 import { ParticlesBackground } from "./components/common/particles/particles-background";
-import { TRACKING_ID } from "./data/tracking";
 import "./app.css";
 
 function App() {
-	useEffect(() => {
-		if (TRACKING_ID !== "") {
-			ReactGA.initialize(TRACKING_ID);
-		}
-	}, []);
-
 	return (
 		<>
 			<div style={{ position: "absolute", zIndex: -1 }}>
