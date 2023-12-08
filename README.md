@@ -1,6 +1,6 @@
 # Personal Project Portfolio 👾
 
-Here is a compilation of a few programming projects I have endeavored. <a href="[https://github.com/truethari/reactfolio/tree/master](https://kyleetd.github.io/project-portfolio/home)" target="_blank">GitHub Page Link Here.</a>
+Here is a compilation of a few programming projects I have endeavored. <a href="https://kyleetd.github.io/project-portfolio/home" target="_blank">GitHub Page Link Here.</a>
 
 Forked from this repository: <a href="https://github.com/truethari/reactfolio/tree/master" target="_blank">reactfolio</a>
 <br/>
