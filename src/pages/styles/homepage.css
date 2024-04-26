@@ -41,18 +41,23 @@
 }
 
 .homepage-image-container {
-	width: 370px;
-	height: 370px;
+	width: 390px;
+	height: 375px;
 }
 
 .homepage-image-wrapper {
 	overflow: hidden;
 	border-radius: 10%;
 	transform: rotate(3deg);
+	border: 5px solid rgba(0, 0, 0, 0.25);
 }
 
 .homepage-image-wrapper img {
 	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .homepage-socials {

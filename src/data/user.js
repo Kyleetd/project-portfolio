@@ -56,11 +56,12 @@ const INFO = {
 		},
 
 		{
-			title: "Human Migration Visualization",
-			description: "In progress. Will visualize migration patterns.",
+			title: "Drop-N",
+			description:
+				"A database tracking leagues and players for a local volley ball organization. The backend was created with Python's SQLAlchemy ORM and FastAPI framework. The frontend was created with React's MUI library.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com/Kyleetd/human-migration-data-visualization",
+			link: "https://github.com/Kyleetd/Drop-N",
 		},
 	],
 };
