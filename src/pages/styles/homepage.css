@@ -23,7 +23,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	height: 100%;
+	width: 57%;
 }
 
 .homepage-title {
@@ -37,19 +37,49 @@
 .homepage-first-area-right-side {
 	display: flex;
 	align-items: center;
-	height: 100%;
+	justify-content: center;
+	width: 43%;
+}
+
+@keyframes spin {
+	from {
+		rotate: 0deg;
+	}
+	to {
+		rotate: 360deg;
+	}
 }
 
 .homepage-image-container {
-	width: 390px;
-	height: 375px;
+	overflow: hidden;
+	padding: 15px;
+	position: relative;
+	border-radius: 40px;
+	transform: rotate(5deg);
+	z-index: 1;
+}
+
+.spinning-border-container {
+	background: linear-gradient(
+		90deg,
+		var(--purple-color),
+		#ab7ef3,
+		#77badf,
+		var(--link-color)
+	);
+	inset: 0;
+	scale: 2;
+	position: absolute;
+	animation: spin 3s linear infinite;
+	z-index: 2;
 }
 
 .homepage-image-wrapper {
-	overflow: hidden;
-	border-radius: 10%;
-	transform: rotate(3deg);
-	border: 5px solid rgba(0, 0, 0, 0.25);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	z-index: 3;
 }
 
 .homepage-image-wrapper img {
@@ -58,6 +88,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	border-radius: 40px;
 }
 
 .homepage-socials {
@@ -89,7 +120,7 @@
 
 	.homepage-first-area-left-side {
 		display: flex;
-		flex-direction: column; /* Changed: set direction to column */
+		flex-direction: column;
 		align-items: flex-start;
 		width: 100%;
 		order: 2;
