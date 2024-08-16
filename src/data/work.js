@@ -1,5 +1,12 @@
 export const WORK = [
 	{
+		Company: "Amazon",
+		Logo: "Amazon.jpg",
+		Description: "TBD...",
+		Date: "September 2024-December 2024",
+	},
+
+	{
 		Company: "Arius Technology",
 		Logo: "Arius.jpg",
 		Description:
@@ -11,7 +18,7 @@ export const WORK = [
 		Company: "Forsite Consultants",
 		Logo: "Forsite.jpg",
 		Description:
-			"Created spatial data inputs as training data for machine learning algorithms and automated workflows using a collection of geospatial Python libraries",
+			"Calibrated the input parameters of a tree segmentation algorithm. Created spatial data inputs as training data for a tree species identification machine learning algorithm. Automated workflows using a collection of geospatial Python libraries",
 		Date: "May 2022-December 2023",
 	},
 
@@ -19,7 +26,7 @@ export const WORK = [
 		Company: "Transport Canada",
 		Logo: "TC.jpg",
 		Description:
-			"Supported in the review of proposed development projects under the Canadian Environmental Impact Assessment Act. Managed budget sheets to aid in the organization of FCAP projects.",
+			"Supported in the review of proposed development projects under the Canadian Environmental Impact Assessment Act. Managed budget sheets to aid in the organization of FCSAP projects.",
 		Date: "January 2021-August 2021",
 	},
 
