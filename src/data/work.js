@@ -1,5 +1,13 @@
 export const WORK = [
 	{
+		Company: "Arius Technology",
+		Logo: "Arius.jpg",
+		Description:
+			"Updated several repositories to abide to core C++ best practices. Virtualized the development environment using Docker.",
+		Date: "May 2024-August 2024",
+	},
+
+	{
 		Company: "Forsite Consultants",
 		Logo: "Forsite.jpg",
 		Description:

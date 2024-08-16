@@ -15,7 +15,7 @@ const INFO = {
 	homepage: {
 		title: "Hi, I'm Kylee. I am a Computer Science student at UBC.",
 		description:
-			"So far, I have a bit of experience in both front- and back-end development. Namely, I have built several applications using HTML + CSS+ Javascript. Lately, I have been learning React, which I enjoy. I have mostly used Python for database and API-related work. I am still looking to develop my niche, so I'm excited to discover new concepts, frameworks, and languages. To add a sprinkle of persoanlity, I love reading and currently I am loving the Dune series",
+			"So far, I have a bit of experience in both front- and back-end development. Namely, I have built several applications using HTML + CSS + Javascript. Lately, I have been learning React, which I enjoy. I have mostly used Python for database and API-related work. I am still looking to develop my niche, so I'm excited to discover new frameworks and languages. To add a sprinkle of personality, I love reading and currently I am loving the Dune series as well as Surface Detail.",
 	},
 
 	projects: [
