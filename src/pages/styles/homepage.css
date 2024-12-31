@@ -70,7 +70,7 @@
 	inset: 0;
 	scale: 2;
 	position: absolute;
-	animation: spin 3s linear infinite;
+	animation: spin 8s linear infinite;
 	z-index: 2;
 }
 
@@ -89,6 +89,7 @@
 	justify-content: center;
 	align-items: center;
 	border-radius: 40px;
+	max-height: 450px;
 }
 
 .homepage-socials {

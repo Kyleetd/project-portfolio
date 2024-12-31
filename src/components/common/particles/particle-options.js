@@ -1,4 +1,5 @@
 import { useTheme } from "@mui/material/styles";
+import "../../../data/styles.css";
 
 const ParticleOptions = () => {
 	const theme = useTheme();
@@ -6,8 +7,9 @@ const ParticleOptions = () => {
 	const options = {
 		background: {
 			color: {
-				// value: theme.palette.background.default,
-				value: "rgba(82, 0, 175)",
+				value: window
+					.getComputedStyle(document.documentElement)
+					.getPropertyValue("--background-color"),
 			},
 			opacity: 0.5,
 		},
@@ -52,7 +54,7 @@ const ParticleOptions = () => {
 				outModes: {
 					default: "bounce",
 				},
-				speed: 6,
+				speed: 2,
 				straight: false,
 				bounce: true,
 			},

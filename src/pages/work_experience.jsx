@@ -5,9 +5,9 @@ import NavBar from "../components/common/navBar";
 import CustomizedTimeline from "../components/work-experience/mui-timeline";
 
 import INFO from "../data/user";
-import { WORK } from "../data/work";
+import { WORK_INFO } from "../data/work";
 
-import "./styles/work-experience.css";
+import "./styles/work_experience.css";
 
 const About = () => {
 	useEffect(() => {
@@ -25,10 +25,15 @@ const About = () => {
 				<NavBar active="work-experience" />
 				<div className="content-wrapper">
 					<div className="work-container">
+						<div className="work-image">
+							<img
+								src={WORK_INFO.details.logo}
+								alt="Work Logo"
+								className="cat-image"
+							/>
+						</div>
 						<div className="work-main">
-							<div className="work-right-side">
-								<CustomizedTimeline timeLineData={WORK} />
-							</div>
+							<CustomizedTimeline timeLineData={WORK_INFO.work} />
 						</div>
 					</div>
 				</div>

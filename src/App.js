@@ -2,7 +2,7 @@ import { Routes, Route, Navigate } from "react-router-dom";
 
 import Homepage from "./pages/homepage";
 import Projects from "./pages/projects";
-import WorkExperience from "./pages/work-experience";
+import WorkExperience from "./pages/work_experience";
 import Notfound from "./pages/404";
 
 import { ParticlesBackground } from "./components/common/particles/particles-background";
@@ -23,10 +23,7 @@ function App() {
 						/>
 						<Route path="home" element={<Homepage />} />
 						<Route path="projects" element={<Projects />} />
-						<Route
-							path="work-experience"
-							element={<WorkExperience />}
-						/>
+						<Route path="work" element={<WorkExperience />} />
 					</Route>
 					<Route path="*" element={<Notfound />} />
 				</Routes>

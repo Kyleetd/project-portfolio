@@ -1,0 +1,41 @@
+.work-logo-container {
+	display: flex;
+	justify-content: left;
+	padding-top: 25px;
+}
+
+.work-container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	margin: 0;
+	padding-top: 120px;
+}
+
+.work-main {
+	display: flex;
+}
+
+.work-image {
+	display: flex;
+	justify-content: center; /* Center horizontally */
+	align-items: center; /* Center vertically */
+}
+
+.cat-image {
+	display: flex;
+
+	height: 75px;
+}
+
+@media (max-width: 1024px) {
+	.work-main {
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 600px) {
+	.work-container {
+		padding-top: 60px;
+	}
+}

@@ -43,25 +43,12 @@ const Homepage = () => {
 								</div>
 							</div>
 
-							{/* <div className="homepage-first-area-right-side">
-								<div className="homepage-image-container">
-									<div className="homepage-image-wrapper">
-										<img
-											src="homepage - Copy.jpg"
-											alt="about"
-											className="homepage-image"
-										/>
-									</div>
-								</div>
-							</div>
-						</div> */}
-
 							<div className="homepage-first-area-right-side">
 								<div className="homepage-image-container">
 									<div className="spinning-border-container"></div>
 									<div className="homepage-image-wrapper">
 										<img
-											src="homepage - Copy.jpg"
+											src="front_page.jpg"
 											alt="about"
 											className="homepage-image"
 										/>
