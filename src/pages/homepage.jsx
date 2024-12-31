@@ -48,7 +48,7 @@ const Homepage = () => {
 									<div className="spinning-border-container"></div>
 									<div className="homepage-image-wrapper">
 										<img
-											src="front_page.jpg"
+											src="homepage_new.jpg"
 											alt="about"
 											className="homepage-image"
 										/>
