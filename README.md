@@ -3,6 +3,8 @@
 Here is a compilation of a few programming projects I have endeavored. <a href="https://kyleetd.github.io/project-portfolio/home" target="_blank">GitHub Page Link Here.</a>
 
 Forked from this repository: <a href="https://github.com/truethari/reactfolio/tree/master" target="_blank">reactfolio</a>
+
+I used [this tutorial](https://www.youtube.com/watch?v=3ieVoHp77aU) to animate the picture border on the home page.
 <br/>
 
 
